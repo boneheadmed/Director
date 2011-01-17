@@ -14,10 +14,10 @@ MyGame = ig.Game.extend({
 	font: new ig.Font( 'media/04b03.font.png' ),
 	
 	init: function() {
-    ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
-    ...
-    this.myDirector = new ig.Director(this, [LevelMain,  LevelForest, LevelMountains]);
-    ...
+    -ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
+    -...
+    -this.myDirector = new ig.Director(this, [LevelMain,  LevelForest, LevelMountains]);
+    -...
 }
 
 From here you can use this.myDirector (or whichever name you choose) to navigate through levels.
