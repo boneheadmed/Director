@@ -10,10 +10,10 @@ Within the main.js file, require: 'game.director.director'
 Within game init, create a new director:
 MyGame = ig.Game.extend({
 	
-	// Load a font
-	font: new ig.Font( 'media/04b03.font.png' ),
-	
-	init: function() {
+  // Load a font
+  font: new ig.Font( 'media/04b03.font.png' ),
+
+  init: function() {
     ig.input.bind( ig.KEY.LEFT_ARROW, 'left' );
     ...
     this.myDirector = new ig.Director(this, [LevelMain,  LevelForest, LevelMountains]);
