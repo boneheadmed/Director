@@ -76,7 +76,7 @@ ig.Director = ig.Class.extend({
         levelNumber = i;
       }
     }    
-    if (levelNumber){
+    if (levelNumber >= 0){
       return this.loadLevel(levelNumber);
     }
     else{
@@ -102,3 +102,4 @@ ig.Director = ig.Class.extend({
 });
 
 });
+
