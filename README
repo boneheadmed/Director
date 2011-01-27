@@ -26,7 +26,7 @@ Examples:
 
   - Create a new director:
       this.myDirector = new ig.Director(this, [LevelMain,  LevelForest, LevelMountains]);
-      //Initializes the Director. The first parameter is the actual game class.
+      //Initializes the Director. The first parameter is the actual game object.
       //The next parameter is an array of levels to include. This may also be 
       //initialized with a single level that is not within an array as in:
       //new ig.Director(this, LevelMain);.

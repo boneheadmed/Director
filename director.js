@@ -45,8 +45,8 @@ ig.Director = ig.Class.extend({
   },
 
   nextLevel: function(){
-    //Advance to the next level provided we are not at the end
-    //of the array.
+    //Advance to the next level provided we are not at 
+    //the end of the array.
     if (this.currentLevel + 1 < this.levels.length){
       return this.loadLevel(this.currentLevel + 1);
     }
