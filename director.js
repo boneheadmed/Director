@@ -1,5 +1,5 @@
 ig.module(
-	'game.director.director'
+	'plugins.director.director'
 )
 .requires(
 	'impact.impact'
