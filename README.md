@@ -1,6 +1,6 @@
 A Director class/module to be used with the Impact javascript game engine (http://impactjs.com/).
 
-This module essentially stores an array of levels which can be traveresed using different functions.
+This module essentially stores an array of levels which can be traversed using different functions.
 
 
 How to use:
@@ -70,4 +70,4 @@ Reload the current level:
 
 
 
-***Note: for those using the latest dev version of impactjs, .loadLevelDeferred(data) can be used instead by making the appropriate change within the Director's .loadLevel(levelNumber) function.
+***Note: The .loadLevelDeferred(data) can be used instead instead of .loadLevel(data) by making the appropriate change within the Director's .loadLevel(levelNumber) function. If the Director functions are used only with ig.game.main then this .loadLevelDeferred(data) is not necessary and in my experience may cause errors. On the other hand if a trigger or other entity calls a change in level then .loadLevelDeferred may be necessary. See the Impact documentation about this topic (http://impactjs.com/documentation/class-reference/game).
