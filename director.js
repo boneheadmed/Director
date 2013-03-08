@@ -28,7 +28,7 @@ ig.Director = ig.Class.extend({
   
   append: function(levels){
     //Append a single new level or an array of new levels.
-    newLevels = [];
+    var newLevels = [];
     if (typeof(levels) === 'object'){
       if (levels.constructor === (new Array).constructor){
         newLevels = levels;
